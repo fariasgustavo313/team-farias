@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #BE191B;
+    background: linear-gradient(to bottom, #BE191B, #000000);
+    /* Para navegadores antiguos */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BE191B', endColorstr='#000000',GradientType=0);
+}
+
+.m-40 {
+    margin-top: 100px;
+}
+
+.header img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30%;
+    margin-top: -220px;
+    display: inline-block;
+    
+}
+
+nav {
+    text-align: center; /* Centra los elementos internos horizontalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Centra la lista horizontalmente */
+    display: inline-block; /* Para que la lista se ajuste al contenido */
+}
+
+nav ul li {
+    display: inline-block; /* Coloca los elementos de la lista en línea */
+    margin-right: 10px; /* Espacio entre los elementos de la lista (opcional) */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento (opcional) */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Ajusta el espaciado interno del enlace (opcional) */
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.container {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 45%; /* Ajusta el ancho de la columna izquierda según sea necesario */
+}
+
+.right-column {
+    width: 45%; /* Ajusta el ancho de la columna derecha según sea necesario */
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #111;
+}
